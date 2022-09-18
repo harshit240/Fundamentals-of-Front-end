@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script>
+		// function sum(eng,math,sc) {
+		// 	var total = eng + math + sc
+		// 	return total
+		// }
+		// function percentage()
+		// {
+		// 	var total = sum(70,62,84);
+		// 	var per = total/300*100
+		// 	document.write(per);
+		// }
+		// percentage()
+	
+
+	var eng = prompt("Enter your english marks : ") 
+	var sc = prompt("Enter your science marks : ") 
+	var math = prompt("Enter your math marks : ") 
+
+	function sum(eng,sc,math) {
+		var total = eng+sc+math
+		return total;
+	}
+	sum(eng,sc,math);
+	document.write(sum);
+	function percentage(total)
+	{
+		var per = total*300/100
+		return per
+	}
+	var perc = percentage()
+	document.write(perc)
+
+</script>
+</head>
+<body>
+
+</body>
+</html>

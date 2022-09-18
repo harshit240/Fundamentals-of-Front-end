@@ -1,0 +1,319 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.upper_navbar{
+	background: white;
+	width: 100%;
+	height: 70px;
+}
+.upper_navbar .logo {
+    width: 190px;;
+	padding: 17px 0 0 52px;
+}
+.upper_navbar .timing{
+	width: 230px;
+    margin-left: 440px;
+    FONT-SIZE: 20PX;
+    text-align: center;
+    margin-top: -51px;
+}
+.upper_navbar .timing i:hover{
+	color: #01b3a7;
+}
+.upper_navbar .contact{
+	width: 172px;
+    float: right;
+    margin-right: 325px;
+    margin-top: -20px;
+}
+.upper_navbar .contact i:hover{
+	color: #01b3a7;
+
+}
+.upper_navbar .free_quote a{
+	text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #47bc87;
+    border: 1px solid #47bc87;
+    border-radius: 6px;
+    font-size: 19px;
+    padding: 11px 23px;
+}
+.upper_navbar .free_quote{
+	float: right;
+    margin-top: -20px;
+    margin-right: 65px;
+}
+
+/*navbar_menu CSS start*/
+
+.navbar .navbar_menu{
+	width: 100%;
+	height: 50px;
+	background-color: #172d44;
+}
+.navbar .navbar_menu a{
+	text-align: center;
+    text-decoration: none;
+    line-height: 43px;
+    padding: 0 20px;
+    color: white;
+    font-size: 21px;
+}
+.navbar .navbar_menu a:hover{
+	color: #01b3a7;
+}
+.navbar .icon {
+	float: right;
+    margin-top: -37px;
+    margin-right: 66px;
+    color: white;
+    font-size: 20px;
+}
+.navbar .icon i:hover{
+	color: #01b3a7;
+}
+/*Banner CSS start*/
+
+.banner{
+	background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(../image/banner2.png);
+	width: 100%;
+	height: 800px;
+	background-size: cover;
+	background-position: center;
+}
+.banner .b{
+	border: 1px solid white;
+    padding: 16px 35px;
+    background: transparent;
+    color: white;
+    line-height: 921px;
+    margin-left: 207px;
+    text-decoration: none;
+    border-radius: 4px;
+    outline: 0;
+}
+.banner .b:hover{
+	background: #e1a05a;
+}
+
+/*information css*/
+.information{
+	margin-bottom: 35px;
+}
+.information .about_gwalior{
+	width: 100%;
+    height: 72px;
+    text-align: center;
+}
+.information .about_gwalior h1{
+	margin: auto;
+    text-align: center;
+    padding: 20px 0;
+}
+.content{
+	width: 520px;
+    text-align: justify;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.information .content_box{
+	width: 630px;
+    height: 320px;
+    background: #efeeee;
+}
+.information .content_box .content p{
+	text-align: justify;
+    padding-top: 30px;
+}
+.information .image{
+	background: url(../image/Jai_Vilas_Palace.png);
+    background-size: cover;
+    background-position: center;
+    float: right;
+    width: 634px;
+    height: 320px;
+    margin-top: -320px
+}
+/*Banner2 CSS start*/
+.banner2{
+	background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(../image/banner3.png);
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 572px;
+}
+.gallery{
+	margin-left: 40px;
+	margin-top: 33px;
+    background-color: white;
+}
+.gallery .a{
+	background: url(../image/gwaliorgurudwara.jpg);
+	height: 280px;
+	width: 280px;
+	background-position: center;
+	background-size: cover;
+	float: left;
+	margin-right: 22px;
+	margin-top: 16px;
+}
+
+.gallery .b{
+	background: url(../image/image3.png);
+	height: 280px;
+	width: 280px;
+	background-position: center;
+	background-size: cover;
+	float: left;
+	margin-right: 22px;
+	margin-top: 16px;
+}
+
+.gallery .c{
+	background: url(../image/fort.png);
+	height: 280px;
+	width: 280px;
+	background-position: center;
+	background-size: cover;
+	float: left;
+	margin-right: 22px;
+	margin-top: 16px;
+}
+.gallery .d{
+	background: url(../image/gwalior2.png);
+	height: 280px;
+	width: 280px;
+	background-position: center;
+	background-size: cover;
+	float: left;
+	margin-right: 22px;
+	margin-top: 16px;
+}
+
+.gallery .e{
+	background: url(../image/suntemple.png);
+	height: 280px;
+	width: 280px;
+	background-position: center;
+	background-size: cover;
+	float: left;
+	margin-right: 22px;
+	margin-top: 16px;
+}
+
+.gallery .f{
+	background: url(../image/image.png);
+	height: 280px;
+	width: 280px;
+	background-position: center;
+	background-size: cover;
+	float: left;
+	margin-right: 22px;
+	margin-top: 16px;
+}
+
+.gallery .g{
+	background: url(../image/image1.png);
+	height: 280px;
+	width: 280px;
+	background-position: center;
+	background-size: cover;
+	float: left;
+	margin-right: 22px;
+	margin-top: 16px;
+}
+
+.gallery .h{
+	background: url(../image/image2.png);
+	height: 280px;
+	width: 280px;
+	background-position: center;
+	background-size: cover;
+	float: left;
+	margin-right: 22px;
+	margin-top: 16px;
+}
+/*upper_footer CSS start*/
+
+.upper_footer{
+	height: 320px;
+    width: 100%;
+    background: #162e44;
+    color: #01b3a7;
+}
+.upper_footer .contact_bar{
+	padding-top: 40px;
+	padding-left: 48px;
+    margin-top: 656px;
+    width: 440px;
+}
+.upper_footer .upper_footer_content .contact_bar a:hover{
+	color: #01b3a7;
+}
+.upper_footer .upper_footer_content .contact_bar .follow i:hover{
+	color: #01b3a7;
+}
+.upper_footer .contact_bar a{
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif;
+	letter-spacing: .05em;
+	text-transform: lowercase;
+}
+.upper_footer .follow{
+	margin-left: 34px;
+    margin-top: 4px;
+    width: 200px;
+}
+.upper_footer .links{
+	width: 400px;
+    text-align: center;
+    margin-top: -260px;
+    margin-left: 480px;
+}
+
+.upper_footer .links .social_link a{
+	text-decoration: none;
+	color: white;
+}
+.upper_footer .links .social_link a:hover{
+	color: #01b3a7;
+}
+.upper_footer .upper_footer_content .facebook_page {
+	float: right;
+    margin-top: -272px;
+    margin-right: 13px;
+}
+.upper_footer .upper_footer_content .contact_bar a:hover{
+	color: #01b3a7;
+}
+/*Footer css start*/
+
+.footer{
+	width: 100%;
+	height: 60px;
+	background: #11263a;
+	color: #59686e;
+}
+.footer .credit{
+	width: 470px;
+}
+.footer .credit p{
+	padding: 23px;
+}
+.footer .credit p{
+	color: #59686e;
+}
+
+.footer .privacy{
+	float: right;
+    margin-top: -45px;
+    margin-right: 70px;
+}
+.footer .privacy p:hover{
+	color: #59686e;
+}

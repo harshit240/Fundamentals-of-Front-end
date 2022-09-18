@@ -1,0 +1,359 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.navbar{
+	width: 100%;
+	height: 80px;
+	background: white;
+	position: fixed;
+}
+.navbar img{
+	margin-left: 33px;
+    margin-top: 10px;
+    width: 13%;
+}
+
+/* Menu css start */
+
+.navbar .menu{
+	float: right;
+    position: relative;
+    top: 34%;
+}
+    
+.navbar .menu ul li{
+	display: inline-block;
+    font-size: 14px;
+    padding: 0 10px;
+    font-weight: 600;
+}
+
+.navbar .menu ul li a{
+	text-decoration: none;
+	color: #1a1919;
+}
+
+/*Banner div start*/
+
+.banner{
+	background: url(../image/Website_Banners_15_2048x.jpg);
+	width: 100%;
+	height: 711px;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 10px;
+}
+
+.banner .b1{
+	border: 1px solid white;
+    padding: 16px 35px;
+    background: #545756;
+    color: white;
+    margin-top: 28%;
+    margin-left: 15%;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+/* Images container CSS*/
+
+.container{
+	margin: 18px 0 24px 39px;
+}
+
+.container .a{
+	background: url(../image/girpswear.png);
+	height: 280px;
+	width: 280px;
+	background-position: center;
+	background-size: cover;
+	float: left;
+	margin-right: 16px;
+	margin-top: 16px;
+}
+
+.container .b{
+	background: url(../image/backpacks.png);
+	height: 280px;
+	width: 280px;
+	background-position: center;
+	background-size: cover;
+	float: left;
+	margin-right: 16px;
+	margin-top: 16px;
+}
+
+.container .c{
+	background: url(../image/tourpacks.png);
+	height: 280px;
+	width: 280px;
+	background-position: center;
+	background-size: cover;
+	float: left;
+	margin-right: 16px;
+	margin-top: 16px;
+}
+
+.container .d{
+	background: url(../image/facemask.png);
+	height: 280px;
+	width: 280px;
+	background-position: center;
+	background-size: cover;
+	float: left;
+	margin-right: 16px;
+	margin-top: 16px;
+}
+
+.container .e{
+	background: url(../image/belts.png);
+	height: 280px;
+	width: 280px;
+	background-position: center;
+	background-size: cover;
+	float: left;
+	margin-right: 16px;
+	margin-top: 16px;
+}
+
+.container .f{
+	background: url(../image/tankbags.png);
+	height: 280px;
+	width: 280px;
+	background-position: center;
+	background-size: cover;
+	float: left;
+	margin-right: 16px;
+	margin-top: 16px;
+}
+
+.container .g{
+	background: url(../image/lifestyle.png);
+	height: 280px;
+	width: 280px;
+	background-position: center;
+	background-size: cover;
+	float: left;
+	margin-right: 16px;
+	margin-top: 16px;
+}
+
+.container .h{
+	background: url(../image/headlight.png);
+	height: 280px;
+	width: 280px;
+	background-position: center;
+	background-size: cover;
+	float: left;
+	margin-right: 16px;
+	margin-top: 16px;
+}
+
+.container p{
+    font-weight: 100;
+    font-size: 18px;
+    color: #ffff;
+    margin-top: 120px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/*Handmade banner */
+
+.Handmadebag{
+	background: url(../image/Handmadebg.png);
+	width: 100%;
+	height: 600px;
+	margin-top: 655px;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 30px;
+}
+
+.Handmadebag h1{
+	color: white;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 14%;}
+
+.Handmadebag h3{
+	color: white;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    font-family: sans-serif;}
+
+.Handmadebag .b2{
+	border: 1px solid white;
+	color: white;
+	background: transparent;
+    padding: 16px 32px;
+    border-radius: 3px;
+    margin-left: 44%;}
+
+/* 2nd image container CSS */
+.container2{
+
+	margin: 0 0 22px 40px;
+}
+.container2 .i{
+	background: url(../image/helmethanger.png);
+	height: 580px;
+	width: 580px;
+	background-position: center;
+	background-size: cover;
+	float: left;
+	margin-right: 16px;
+	margin-top: 16px;
+}
+
+.container2 .j{
+	background: url(../image/wallets.png);
+	height: 580px;
+	width: 580px;
+	background-position: center;
+	background-size: cover;
+	float: left;
+	margin-right: 16px;
+	margin-top: 16px;
+}
+
+.container2 .k{
+	background: url(../image/militaryduffel.png);
+	height: 580px;
+	width: 580px;
+	background-position: center;
+	background-size: cover;
+	float: left;
+	margin-right: 16px;
+	margin-top: 16px;
+}
+
+.container2 .l{
+	background: url(../image/toolrolls.png);
+	height: 580px;
+	width: 580px;
+	background-position: center;
+	background-size: cover;
+	float: left;
+	margin-right: 16px;
+	margin-top: 16px;
+}
+
+.container2 a p{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 277px;
+}
+
+/*Sign up CSS*/
+.signupdiv{
+	width: 100%;
+	height: 230px;
+	margin-top: 1266px;
+	background: black;
+	text-align: center;
+}
+
+.signupdiv h2{
+	color: white;
+    text-align: center;
+    padding-top: 42px;
+    font-size: 26px;
+    font-family: sans-serif;
+}
+
+.signupdiv p{
+	color: white;
+	text-align: center;
+    padding-top: 18px;
+    font-size: 15px;
+    font-family: sans-serif;
+} 
+
+.box{
+    margin-top: 25px;
+}
+
+.box1{
+	padding: 4px 8px;
+}
+.signupdiv .box .box1{
+	border: 0;
+    padding: 10px 25px 10px 10px;
+    width: 230px;
+    border-radius: 3px;
+	outline: 0;
+	margin-right: 10px;}
+
+.signupdiv .box .b3{
+	padding: 10px 18px;
+    border-radius: 6px;
+    background: #4a4848;
+    color: white;}
+
+/* Sub-footer CSS */
+
+.sub-footer{
+	width: 100%;
+	height: 380px;
+	background: #ffff;
+	font-family: sans-serif;
+}
+.column1{
+	width: 240px;
+}
+
+.sub-footer .column1 h6{
+	color: black;
+	margin-top: 38px;
+    margin-left: 40px;
+    font-size: 14px;
+    font-weight: 480px;
+    padding-bottom: 34px;}
+
+.sub-footer .footer_menu ul li{
+	padding-left: 39px;
+	display: inline-block;}
+
+.sub-footer .footer_menu ul li a{
+	color: black;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 200;}
+
+.sub-footer .getintouch{
+	width: 280px;
+}
+.getintouch{
+	width: 276px;
+	position: relative;
+    top: -43%;
+    left: 27%;}
+
+.getintouch h6{
+	font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 34px;
+    font-family: sans-serif;}
+
+.sub-footer .getintouch .getintouch_menu p{
+	color: black;
+	font-size: 13px;
+    font-weight: 200;
+    font-family: sans-serif;}
+
+ /*Footer CSS */
+
+.footer{
+	width: 100%;
+	height: 100px;}
+
+
+

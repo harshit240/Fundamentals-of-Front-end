@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Nesting</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.container{
+			border: 2px solid red;
+		}
+		.row{
+			border: 2px solid purple;
+		}
+	
+		.pink{
+			background: deeppink;
+		}
+		.orange{
+			background: orange;
+		}
+		.yellow{
+			background: yellow;
+		}
+		.blue{
+			background: green;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+					<h2>Heading Goes here!</h2>
+				<div class="row">
+					<div class="col-md-6 orange">
+						<h3>First Heading</h3>
+						<p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+					</div>
+					<div class="col-md-6 yellow">
+						<h3>Second Heading</h3>
+						<p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">Second div</div>
+		</div>
+	</div>
+</body>
+</html>

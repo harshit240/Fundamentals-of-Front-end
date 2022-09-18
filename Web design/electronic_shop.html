@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<script src="div2.js"></script>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		body
+		{
+			background-color: #a7a5a4;
+		}
+		.header
+		{
+			margin-top: 0;
+			padding-top: 0;
+			margin-bottom: 20px;
+			text-align: center;
+			font-family: sans-serif;
+			background: #232f3e;
+			color: white;
+			font-size: 40px;
+			border: 2px solid grey;
+		}
+		.a
+		{
+			border: 2px solid;
+			height: 40px;
+			margin-top: -23px;
+		}
+		.logo
+		{
+			float: left;
+  			margin-top: 0px;
+    		font-size: 39px;
+		}
+		.cart
+		{
+			float: left;
+		    margin-top: 5px;
+		    font-size: 34px;
+		    margin-left: 36px;
+		}
+		.AddDD
+		{
+			float: left;
+		    margin-left: 12px;
+		    margin-top: 8px;
+		    font-size: 20px;
+		    font-family: fangsong;
+		}
+		.removeItem
+		{
+			margin-top: 7px;
+		    margin-left: -636px;
+		    font-size: 18px;
+		    font-family: fangsong;
+		}
+		.Ttlamt
+		{
+			margin-top: -21px;
+		}
+		.Buy
+		{
+			font-size: larger;
+		    float: right;
+		    margin-right: 44px;
+		    margin-top: -28px;
+		}
+		.b
+		{
+			border: 2px solid grey;
+		    height: 420px;
+		    width: 303px;
+		    float: left;
+		    margin-left: -298px;
+		    margin-top: 3px;
+		}
+		.c
+		{
+			border: 2px solid grey;
+			height: 420px;
+			width: 303px;
+			float: left;
+			margin: 3px;
+			float: left;
+		}
+		.d
+		{
+			border: 2px solid grey;
+			height: 420px;
+			width: 303px;
+			float: left;
+			margin: 3px;
+			float: left;
+		}
+		.e
+		{
+			border: 2px solid grey;
+			height: 420px;
+			width: 303px;
+			float: left;
+			margin: 3px;
+			float: left;
+		}
+		.f{
+			margin-top: -21px;
+			color: rebeccapurple;
+			font-family: cursive;
+		}
+	</style>
+</head>
+<body>
+<h1 class="header">ELECTRONIC SHOP</h1>
+<div class="a" style="border: 2px solid grey;">
+	<center>
+		<h2 class="logo">Amazon.in</h2>
+		<h2 class="cart">Cart:</h2>
+		<select id="AddItem" class="AddDD" onchange="AddItem()">
+			<option >Check Item</option>
+		</select>
+		<input type="button" value="Remove Items" class="removeItem" onclick="removeItems()"><br>
+		<!-- <button class="removeItem">Remove Item</button> -->
+		<button class="Buy">Buy Now</button>
+		<h3 class="Ttlamt">Total Amount:</h3>
+		
+	</center>
+</div>
+		<h2 style="text-align: left;margin: 0px;">Laptop:</h2>
+<div class="Laptop">
+	<div class="b">
+	<center>
+  		<br>
+  		<img src="image/Laptop.jpg" width="200px" height="210px">
+  		<h4>Hp 15S-Ryzen 3 5300U 8Gb Sdram/256Gb Ssd 15.6 Inches Fhd, Micro-Edge, Anti-Glare Display/AMD...</h4>
+  		<h4 > M.R.P.<del>:₹47,843.00</del> (27% off)</h4>
+  		<h4 class="f">Deal Price :₹34,990.00</h4>
+  		<button id="ATC1" value="HP 15S-Ryzen" text="Hp 15S" onclick="add()">Add to Cart</button>
+  	</center>
+	</div>
+	<div class="c">
+		<center>
+	  		<br>
+	  		<img src="image/HONOR.JPG" width="200px" height="210px">
+	  		<h4>Honor MagicBook X 15, Intel Core i3-10110U / 15.6 inch (39.62 cm) FHD IPS Anti-Glare Thin and Light Laptop...</h4>
+	  		<h4 > M.R.P.<del>:₹49,999.00</del> (34% off)</h4>
+	  		<h4 class="f">Deal Price :₹32,990.00</h4>
+	  		<button id="ATC2" value="Honor MagicBook" onclick="add()">Add to Cart</button>
+  		</center>
+	</div>
+	<div class="d">
+		<center>
+	  		<br>
+	  		<img src="image/DELL.jpg" width="200px" height="210px">
+	  		<h4>Dell Vostro 3405 Laptop AMD Ryzen 3-3250U 14 Inches (35.36 Cms) Fhd, 8Gb Ddr4, 512Gb Ssd, Windows 11 + Ms...</h4>
+	  		<h4 > M.R.P.<del>₹49,990.00</del> (24% off)</h4>
+	  		<h4 class="f">Deal Price :₹37,990.00</h4>
+	  		<button id="ATC3" value="Dell" onclick="add()">Add to Cart</button>
+  		</center>
+	</div>
+	<div class="e">
+		<center>
+	  		<br>
+	  		<img src="image/HP.JPG" width="200px" height="210px">
+	  		<h4>HP Chromebook 11a, MT8183 Processor 29.5 cm,4 GB RAM/64 GB eMMC/ Chrome OS 64 /Fast Charge, 1.07Kg..</h4>
+	  		<h4 > M.R.P.<del>:₹26,663.00</del> (27% off)</h4>
+	  		<h4 class="f">Deal Price :₹19,499.00</h4>
+	  		<button id="ATC4" value="HP Chroombook" onclick="add()">Add to Cart</button>
+  		</center>
+	</div>
+
+</div>
+</body>
+</html>

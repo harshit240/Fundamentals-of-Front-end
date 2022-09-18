@@ -1,0 +1,259 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+/*  navbar css */
+.navbar
+{
+	background: #ffffff;
+	width: 100%;
+	height: 65px;
+}
+.navbar img
+{
+	width: 130px;
+    margin-top: 19px;
+    margin-left: 10%;
+}
+
+.navbar .menu
+{
+	float: right;
+}
+.navbar .menu a{
+	text-decoration: none;
+	font-size: 20px;
+	margin: 0 25px;
+	color: #e670a4;
+	font-weight: 500;
+	line-height: 63px;
+    position: relative;
+    right: 30%;
+}
+
+/* banner css */
+.banner
+{
+	background: url(../image/banner.jpg);
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+	background-position: center;
+
+}
+.banner h1
+{
+	color: white;
+    font-size: 44px;
+    background: transparent;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 55%;
+}
+.banner img
+{
+	padding: 0 10px;
+}
+/* location container bar css */
+.location
+{
+	width: 100%;
+    height: 40px;
+    background-color: rgb(20 0 0 / 30%);
+}
+.location h4
+{
+	position: relative;
+    left: 0%;
+    top: 41%;
+    margin-left: 9%;
+}
+
+.location
+{
+	color: white;
+    padding-bottom: 8px;
+    font-size: 13px;
+    margin: auto;
+    position: relative;
+    top: 70%;
+	
+}
+.maps
+{
+	margin-top: -6px;
+    margin-left: 360px;
+    padding: 0 5px;
+    position: relative;
+    left: -2%;
+}
+
+.location .maps img
+{
+	width: 50px;
+    height: 32px;
+    padding: 2px 5px;
+}
+
+/* About us css */
+.aboutUs
+{
+	color: white;
+	width: 100%;
+	height: 350px;
+	margin-top: 147px;
+}
+.aboutUs h3
+{
+	text-align: center;
+	font-size: 40px;
+	color: #ff0000;
+}
+.aboutUs p
+{
+	text-align: center;
+	font-size: 25px;
+	color: #333333;
+}
+/* Career page CSS*/
+
+.career
+{
+	width: 100%;
+	height: 350px;
+	background: url(../image/fooddeliverypeople.jpg);
+	background-attachment: fixed;
+}
+.career p{
+	text-align: center;
+    font-size: 24px;
+    color: #16b9be;
+    position: relative;
+    top: 42%;
+}
+.career h3
+{
+	font-size: 36px;
+    color: #e4006d;
+    text-align: center;
+    position: relative;
+    top: 37%;
+    left: 0%;
+}
+
+.joinus
+{
+	padding: 12px 70px 12px 70px;
+    font-size: 17px;
+    background: #d70f64;
+    color: white;
+    border: 0;
+    position: relative;
+    left: 42%;
+    top: 52%;
+}
+/*PRESS PAGE CSS*/
+.press
+{
+	width: 100%;
+	height: 682px;
+	background: url(../image/press.jpg);
+	background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.press p{
+	text-align: center;
+    font-size: 24px;
+    color: #16b9be;
+    position: relative;
+    top: 47%;
+}
+.press h3
+{
+	font-size: 36px;
+    color: #e4006d;
+    text-align: center;
+    position: relative;
+    top: 45%;
+}
+
+.seethelatest
+{
+	padding: 12px 70px 12px 70px;
+    font-size: 17px;
+    background: #d70f64;
+    color: white;
+    border: 0;
+    position: relative;
+    left: 40%;
+    top: 51%;
+}
+/*Contact page CSS*/
+
+.contact{
+	width: 100%;
+	height: 550px;
+	background-color: #D70F64;
+}
+.contact p{
+	text-align: center;
+    font-size: 24px;
+    color: white;
+    position: relative;
+    top: 36%;
+}
+.contact h3
+{
+	font-size: 36px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 27%;
+}
+
+.getintouch
+{
+	padding: 12px 70px 12px 70px;
+    font-size: 17px;
+    background: white;
+    color: #D70F64;
+    border: 0;
+    position: relative;
+    left: 40%;
+    top: 48%;
+}
+.footer
+{
+	width: 100%;
+	height: 100px;
+}
+.footer img
+{
+	margin-left: 64px;
+    margin-top: 26px;
+    background-position: center;
+    background-size: cover;
+}
+.footer-menu
+{
+	float: right;
+    position: relative;
+    top: 43%;
+    right: 6%;
+}
+.footer-menu a
+{
+	text-decoration: none;
+    font-size: 21px;
+    font-weight: 300;
+    color: black;
+    padding-right: 10px;
+}
+.footer p{
+	font-size: 17px;
+    position: relative;
+    text-align: center;
+}

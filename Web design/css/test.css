@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.navbar{
+	width: 100%;
+	height: 90px;
+	background: yellow;
+}
+.navbar span{
+	font-size: 40px;
+}
+.navbar .navbar_menu{
+
+	text-align: center;
+}
+.navbar .navbar_menu ul li{
+	margin: auto;
+	display: inline-block;
+    font-size: 25px;
+    padding: 0 25px;
+    font-weight: 600;
+}
+.navbar .navbar_menu ul li a{
+	text-decoration: none;
+	color: #1a1919;
+}
+.navbar .navbar_menu .b{
+	padding: 10px 20px;
+	border: 0;
+	border-radius: 3px;
+	background-color: orange;
+	color: white;
+	font-family: sans-serif;
+}

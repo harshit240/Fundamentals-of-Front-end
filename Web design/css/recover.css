@@ -1,0 +1,149 @@
+css:
+
+.container{
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.container .img_container{
+	float: left;
+    position: relative;
+    padding: 0 19px 20px 0;
+}
+.container .img_container span{
+	position: absolute;
+    left: 26%;
+    top: 44%;
+    color: white;
+    font-size: 18px;
+}
+
+.Handmadebag{
+	background: url(../image/Handmadebg.png);
+	width: 100%;
+	height: 600px;
+	margin-top: 54%;
+	color: white;
+	background-size: cover;
+	background-position: center;
+}
+.Handmadebag h1{
+	padding-top: 22%;
+    padding-left: 43%;
+    font-size: 35px;
+}
+.Handmadebag h3{
+	padding-left: 46%;
+    font-size: 23px;
+}
+.Handmadebag .b2{
+	padding: 16px 32px;
+	color: white;
+    font-size: 17px;
+    margin-left: 46%;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,.6);
+    border-radius: 4px;
+}
+/* 2nd image container  */
+.container2{
+
+	width: 1180px;
+
+}
+
+HTML: 
+
+<!-- <div class="container">
+	<a href="">
+		<div class="img_container">
+			<center>
+			<img src="image/GIRPS WEAR.png" width="260px" height="260px">
+			<span>GRIPS WRAP</span>
+			</center>			
+		</div>
+	</a>	
+	
+	<a href="">
+		<div class="img_container">
+			<center>
+			<img src="image/backpacks.png" width="260px" height="260px">
+			<span>BACKPACKS & SADDLEBAGS</span>
+			</center>			
+		</div>
+	</a>
+
+	<a href="">
+		<div class="img_container">
+			<center>
+			<img src="image/tourpacks.png" width="260px" height="260px">
+			<span>TOUR PACKS</span>
+			</center>			
+		</div>
+	</a>
+
+	<a href="">
+		<div class="img_container">
+			<center>
+			<img src="image/faemask.png" width="260px" height="260px">
+			<span>FACE MASK</span>
+			</center>			
+		</div>
+	</a>
+
+	<a href="">
+		<div class="img_container">
+			<center>
+			<img src="image/belts.png" width="260px" height="260px">
+			<span>BELTS</span>
+			</center>			
+		</div>
+	</a>
+
+	<a href="">
+		<div class="img_container">
+			<center>
+			<img src="image/tankbags.png" width="260px" height="260px">
+			<span>TANK BAGS AND PHONE POUCH</span>
+			</center>			
+		</div>
+	</a>
+
+	<a href="">
+		<div class="img_container">
+			<center>
+			<img src="image/lifestyle.png" width="260px" height="260px">
+			<span>LIFESTYLE GOODS</span>
+			</center>			
+		</div>
+	</a>
+
+	<a href="">
+		<div class="img_container">
+			<center>
+			<img src="image/headlight.png" width="260px" height="260px">
+			<span>HEADLIGHT X</span>
+			</center>			
+		</div>
+	</a>
+</div> -->
+
+<!--  -->
+<!-- <div class="Handmadebag">
+	<h1>HANDMADE IS</h1><br><h3>BETTER MADE</h3><br>
+	<a href=""><button class="b2">READ MORE</button></a>
+</div> -->
+
+<!--  2nd Image div container -->
+<!-- <div class="container2">
+		<div class="img_container2">
+			<a href="">
+			<img src="image/helmethanger.png"  width="500px" height="580px">
+			</a>
+		</div>
+		<div class="img_container2">
+			<a href="">
+			<img src="image/helmethanger.png"  width="500px" height="580px">
+			</a>
+		</div>
+	
+</div> -->

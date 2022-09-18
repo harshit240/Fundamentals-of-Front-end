@@ -1,0 +1,20 @@
+.foot{
+	width: 100%;
+}
+
+#para{
+	font-family: prague;
+	word-spacing: 2px;
+	letter-spacing: 2px;
+}
+.social-icons{
+	display: inline-block;
+	font-size: 30px;
+}
+.social-icons a{
+	color: #ffad00;
+}
+.copyright_text{
+	font-size: 13px;
+
+}

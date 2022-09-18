@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*Navbar CSS*/
+.navbar{
+	/*background: #00000063!important;*/
+	background: #00000099;
+	}
+	.navbar-nav li{
+		padding: 0 10px;
+	}
+	.navbar-nav li a{
+		color: white;
+		font-weight: 400;
+		font-size: 20px;
+	}
+	.mob_logo{
+		display: none;
+	}
+	@media(max-width: 768px){
+		.mob_logo{
+			display: block;
+		}
+		.desk_logo{
+			display: none;
+		}
+		.navbar{
+			background:#fec926;
+		}
+		.navbar-nav li{
+			text-align: center;
+		}
+	}
+
+/*Navbar CSS END*/
+.a{
+	padding-top: 20px;
+	text-transform: uppercase;
+	font-family: 'prague';
+	letter-spacing: 3px;
+}
+.p1{
+	line-height: 35px;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	padding-right: 5px;
+	text-align: justify;
+}
+.img{
+	width: 80%;
+}
+#b1{
+	padding: 10px 20px;
+	margin-top: 170px;
+	margin-bottom: 20px;
+}
+.banner{
+	background-image: url(https://www.firstfiddle.in/assets/images/bannerabout.jpg);
+	background-size: cover;
+	width: 100%;
+}
+
+.mt-20{
+	margin-top: 102px;
+	letter-spacing: 3px;
+}
+.know{
+	background: #fbac29;
+	padding: 10px 20px;
+	border: 0;
+	margin-top: 30px;
+    margin-bottom: 70px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+
+/*Footer CSS*/
+.social-icons{
+	display: inline-block;
+	font-size: 30px;
+}
+.social-icons a{
+	color: #ffad00;
+}
+.copyright_text{
+	font-size: 13px;
+
+}
+/*Footer CSS*/
+
+#footer_content{
+	padding-left: 32px;
+    padding-right: 32px;
+}
+.foot{
+	width: 100%;
+}
+#para{
+	font-family: prague;
+	word-spacing: 2px;
+	letter-spacing: 2px;
+}

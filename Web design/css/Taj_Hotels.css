@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.navbar{
+	background: white;
+	width: 100%;
+	height: 50px;
+	padding-top: 5px;
+
+}
+.navbar img{
+	width: 3rem;
+    height: 38px;
+    margin-top: 3px;
+    margin-left: 23px;
+}
+.navbar .navbar_menu{
+	margin-top: -28px;
+    margin-left: 119px;
+    font-size: 12px;
+    width: 800px;
+    font-weight: 500;
+}
+.navbar .navbar_menu a{
+	text-decoration: none;
+    color: black;
+    padding: 0px 9px;
+}
+.signupdiv{
+	margin-right: 294px;
+    margin-top: -15px;
+}
+.signupdiv a{
+	text-decoration: none;
+	color: black;
+	float: right;
+	font-size: 12px;    
+}
+.b1{
+	float: right;
+    margin-right: -258px;
+    margin-top: -4px;
+}
+.b1 a{
+	text-decoration: none;
+    border: 1px solid #be8845;
+    border-radius: 5px;
+    padding: 5px 0.875rem;
+    font-size: 12px;
+    color: white;
+    background: #be8845;
+}
+
+/*Banner div start*/
+
+.banner{
+	background: url(../image/thetaj.png);
+	width: 100%;
+	height: 440px;
+	background-size: cover;
+	background-position: center;
+}
+.banner .search_bar{
+	margin-left: 17.4rem;
+    padding-top: 22rem;
+}
+.banner .search_bar input{
+	width: 42rem;
+    height: 49px;
+    padding: 4px 24px;
+    font-family: Calibri;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 6px;
+    outline: 0;
+    border: 0;
+}
+.neupass{
+	width: 100%;
+	height: 130px;
+	background: #1a0032;
+	color: white;
+}
+.neupass .neupass_img{
+	width: 184px;
+    height: 125px;
+}
+.neupass .neupass_img img{
+	width: 176.72px;
+    height: 62.36px;
+    margin: 15px 0 0 15px;
+}
+.neupass .neupass_img a{
+	text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    border: 1px solid orange;
+    background: orange;
+    border-radius: 22px;
+    padding: 8px;
+    margin-left: 56px;
+}
+.neupass .benefit_desktop{
+	margin-top: -98px;
+    margin-left: 282px;
+}
+.neupass .benefit_desktop .benefit_item{
+	float: left;
+	margin-right: 87px;
+}
+.neupass .benefit_desktop .benefit_item .caption {
+	margin-top: 16px;
+}
+
+/* Offer div */
+.Offers_promotion{
+	width: 100%;
+	height: 100px;
+}
+.Offers_promotion .offer_h1 p{
+	font-weight: 100;
+	font-size: 40px;
+    text-align: center;
+    margin: 35px 0 35px 0;
+    font-family: sans-serif;
+}
+.Offers_promotion .offer-detail-content .member_offer{
+	width: 406px;
+    height: 490px;
+    margin: 0 26px;
+    background: #efeeee;
+    float: left;
+}
+.Offers_promotion .offer-detail-content .member_offer h3{
+	font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-left: 70px;
+    margin-top: 102px;
+}
+.Offers_promotion .content .offer-detail-content .member_offer p{
+	font-size: 15px;
+    margin-left: 101px;
+    letter-spacing: 0.5px;
+}
+.Offers_promotion .offer-detail-content .member_offer .round{
+
+}
+.Offers_promotion .offer-detail-content .member_offer a{
+	text-decoration: none;
+	color: black;
+}
+.Offers_promotion .offer-detail-content .offer_banner img{
+	float: right;
+}
