@@ -125,6 +125,8 @@
 	height: 350px;
 	background: url(../image/fooddeliverypeople.jpg);
 	background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 .career p{
 	text-align: center;
